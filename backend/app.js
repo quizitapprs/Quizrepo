@@ -9,8 +9,8 @@ const app = express();
 
 mongoose
   .connect(
-     //"mongodb+srv://quizadmin:quizadmin@clusterqz-aklky.mongodb.net/quizdb"
-    "mongodb://localhost:27017/quizdb"
+    "mongodb+srv://quizadmin:quizadmin@clusterqz-aklky.mongodb.net/quizdb"
+    // "mongodb://localhost:27017/quizdb"
   )
   .then(() => {
     console.log("Connected to database!");
