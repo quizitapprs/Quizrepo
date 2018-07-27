@@ -9,12 +9,7 @@ const app = express();
 
 mongoose
   .connect(
-<<<<<<< HEAD
   "mongodb://quizadmin:quizadmin1@ds155461.mlab.com:55461/heroku_7cb674z4"
-	//"mongodb://quizadmin:quizadmin1@ds255451.mlab.com:55451/quizdb"
-    // "mongodb+srv://quizadmin:quizadmin@clusterqz-aklky.mongodb.net/quizdb"
-=======
->>>>>>> b8362f9b274b7c3d51f542e73dc66693c679240a
     // "mongodb://localhost:27017/quizdb"
   )
   .then(() => {
